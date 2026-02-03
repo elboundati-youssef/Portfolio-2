@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - El Boundati Youssef</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/img.jpg" alt="El Boundati Youssef" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="El Boundati Youssef">El Boundati Youssef</h1>
+
+          <p class="title">Développeur Full Stack</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Voir Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:elboundati.youssef.t@gmail.com" class="contact-link" style="font-size: 0.8rem;">elboundati.youssef.t@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+212660863231" class="contact-link">+212 660 863 231</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+           <div class="contact-info">
+              <p class="contact-title">Date de naissance</p>
+
+              <time datetime="2004-12-10">10 Décembre 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localisation</p>
+
+              <address>Tanger, Maroc</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/youssef-el" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/elboundati-youssef" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>À propos</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <article class="about active" data-page="à propos">
+
+        <header>
+          <h2 class="h2 article-title">À propos de moi</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Développeur Full Stack passionné par la création d’applications web et mobiles performantes et innovantes. Titulaire d’un BTS en Développement des Systèmes d’Information, j’ai également suivi une formation en Développement Web & Mobile (JobinTech) et je poursuis actuellement une licence d’excellence en Mathématiques Appliquées à l’Intelligence Machine.
+          </p>
+          <p>
+            J’ai acquis une solide expérience dans le développement d’applications en utilisant des technologies telles que Laravel, PHP, JavaScript, Angular, MySQL et Android. Lors de mes projets académiques et stages, j’ai travaillé sur des solutions concrètes comme des plateformes de gestion de candidatures et des applications mobiles interactives.
+          </p>
+          <p>
+            Motivé, rigoureux et doté d’un bon esprit d’équipe, je suis constamment à la recherche de nouveaux défis techniques et d’opportunités me permettant d’améliorer mes compétences et de contribuer à des projets innovants.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+<section class="service">
+
+          <h3 class="h3 service-title">Ce que je fais</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Backend development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Développement Back-End</h4>
+
+                <p class="service-item-text">
+                  Conception d'API REST, architectures MVC et gestion de bases de données avec Laravel et PHP.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Frontend design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Développement Front-End</h4>
+
+                <p class="service-item-text">
+                  Création d'interfaces modernes et réactives avec Angular, HTML5 et Bootstrap.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Développement Mobile</h4>
+
+                <p class="service-item-text">
+                  Développement d'applications Android natives (Java) et intégration de services Firebase.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-quote.svg" alt="tools icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Outils & Méthodes</h4>
+
+                <p class="service-item-text">
+                  Travail collaboratif via Git, gestion de projet Agile (Scrum) et modélisation UML.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+       
+
+        <!--
+          - clients
+        -->
+
+<section class="clients">
+
+          <h3 class="h3 clients-title">Stack Technique</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#" style="cursor: default;">
+                <img src="./assets/images/logo-laravel.png" alt="Logo Laravel" style="height: 50px; object-fit: contain; width: auto;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" style="cursor: default;">
+                <img src="./assets/images/logo-angular.png" alt="Logo Angular" style="height: 50px; object-fit: contain; width: auto;">
+              </a>
+            </li>
+
+          
+
+            <li class="clients-item">
+              <a href="#" style="cursor: default;">
+                <img src="./assets/images/mysql.png" alt="Logo MySQL" style="height: 50px; object-fit: contain; width: auto;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" style="cursor: default;">
+                <img src="./assets/images/logo-git.png" alt="Logo Git" style="height: 50px; object-fit: contain; width: auto;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#" style="cursor: default;">
+                <img src="./assets/images/Docker_Logo.png" alt="Logo Docker" style="height: 50px; object-fit: contain; width: auto;">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <section class="testimonials" style="display: none;">
+         </section>
+
+      <section class="clients" style="display: none;">
+        </section>
+
+    </article>
+
+    <article class="resume" data-page="resume">
+
+      <header>
+        <h2 class="h2 article-title">Mon Parcours</h2>
+      </header>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Formation</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Licence d'Excellence (En cours)</h4>
+            <span>2024 — Présent</span>
+            <p class="timeline-text">
+              Mathématiques Appliquées à l'Intelligence Machine <br>
+              <em>Faculté Pluridisciplinaire de Nador</em>
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Formation JobInTech</h4>
+            <span>Sept 2025 — Jan 2026</span>
+            <p class="timeline-text">
+              Développement Web & Mobile <br>
+              <em>ENSI Tanger</em>
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">BTS Développement des Systèmes d'Information</h4>
+            <span>2022 — 2024</span>
+            <p class="timeline-text">
+              <em>Lycée Abi Yaakoub Al Badissi, Al Hoceima</em>
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Baccalauréat Professionnel</h4>
+            <span>2020 — 2022</span>
+            <p class="timeline-text">
+              Maintenance Informatique et Réseaux <br>
+              <em>Lycée Abi El Abbas Sebti (OFPPT ISMONTIC), Tanger</em>
+            </p>
+          </li>
+
+        </ol>
+
+      </section>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="briefcase-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Expérience</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Stagiaire Développement Web</h4>
+            <span>Mai 2024 — Juin 2024</span>
+            <p class="timeline-text">
+              <strong>Honest Media, Al Hoceima</strong><br>
+              Développement Full Stack d'une application ATS (Laravel). Authentification, gestion des rôles et export PDF.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Stagiaire Maintenance Informatique</h4>
+            <span>Avril 2022 — Juin 2022</span>
+            <p class="timeline-text">
+              <strong>Sanasoft, Tanger</strong><br>
+              Accueil client, assistance technique, installation de logiciels et formatage d'ordinateurs.
+            </p>
+          </li>
+
+        </ol>
+
+      </section>
+
+      <section class="skill">
+
+        <h3 class="h3 skills-title">Compétences Techniques</h3>
+
+        <ul class="skills-list content-card">
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Back-End (Laravel / PHP)</h5>
+              <data value="85">85%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Front-End (Angular / HTML / CSS)</h5>
+              <data value="80">80%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Base de données (MySQL / SQL)</h5>
+              <data value="75">75%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Outils (Git / Scrum / VS Code)</h5>
+              <data value="70">70%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+      <section class="skill" style="margin-top: 20px;">
+        <h3 class="h3 skills-title">Langues</h3>
+        <ul class="skills-list content-card">
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Arabe (Langue maternelle)</h5>
+            </div>
+          </li>
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Français (Niveau professionnel)</h5>
+            </div>
+          </li>
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Anglais (Niveau intermédiaire)</h5>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+      <li class="filter-item">
+        <button class="active" data-filter-btn>Tout</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Web development</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Applications</button>
+      </li>
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Choisir catégorie</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>Tout</button></li>
+        <li class="select-item"><button data-select-item>Web development</button></li>
+        <li class="select-item"><button data-select-item>Applications</button></li>
+      </ul>
+    </div>
+
+    <ul class="project-list">
+
+      <li class="project-item active" data-filter-item data-category="web development" data-project-item>
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/ai-image.png" alt="Générateur d'Images IA" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Générateur d'Images IA</h3>
+          <p class="project-category">Web development</p>
+
+          <div class="project-hidden-data" style="display: none;">
+            <p class="desc">Application permettant de générer des images via l'API OpenAI (DALL-E). Système complet avec authentification et historique des créations.</p>
+            <span class="tech-stack">PHP, MySQL, OpenAI API, Bootstrap</span>
+            <span class="github-link">https://github.com/elboundati-youssef/AI-Image-Generator</span>
+            <span class="demo-link">#</span> 
+          </div>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development" data-project-item>
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/kenz.png" alt="Kenz E-learning" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Kenz E-learning</h3>
+          <p class="project-category">Web development</p>
+
+          <div class="project-hidden-data" style="display: none;">
+            <p class="desc">Plateforme éducative centralisant bourses et formations. Interface utilisateur riche et responsive.</p>
+            <span class="tech-stack">Angular, TypeScript, CSS, JSON</span>
+            <span class="github-link">https://github.com/elboundati-youssef/Kenz-site-front-end</span>
+            <span class="demo-link">#</span>
+          </div>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development" data-project-item>
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/ats-project.png" alt="Spring Security Auth" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Application de Gestion des Candidatures (ATS)</h3>
+          <p class="project-category">Web development</p>
+
+          <div class="project-hidden-data" style="display: none;">
+            <p class="desc">Développement Full Stack d'une application web pour la gestion des candidatures et des entretiens avec système d’authentification, rôles (Admin/Recruteur) et export PDF.</p>
+            <span class="tech-stack">Laravel, MySQL, PDF Export</span>
+            <span class="github-link">https://github.com/elboundati-youssef/gestion-candidatures-web</span>
+            <span class="demo-link">#</span>
+          </div>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications" data-project-item>
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/quiz-app.jpeg" alt="Application Quiz Android" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Quiz Android App</h3>
+          <p class="project-category">Applications</p>
+
+          <div class="project-hidden-data" style="display: none;">
+            <p class="desc">Application mobile native pour des quiz interactifs (Profs/Étudiants) avec base de données temps réel.</p>
+            <span class="tech-stack">Java, Android Studio, Firebase</span>
+            <span class="github-link">https://github.com/elboundati-youssef/GestionQuiz</span> 
+            <span class="demo-link">#</span>
+          </div>
+        </a>
+      </li>
+
+       <li class="project-item active" data-filter-item data-category="applications" data-project-item>
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/python-prob.png" alt="Application Quiz Android" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Simulation des Lois de Probabilité (Python)</h3>
+          <p class="project-category">Applications</p>
+
+          <div class="project-hidden-data" style="display: none;">
+            <p class="desc">Application Python avec interface graphique pour simuler les lois de probabilité (Poisson, Binomiale, Normale) avec visualisation graphique.</p>
+            <span class="tech-stack">Python, Tkinter, Matplotlib</span>
+            <span class="github-link">https://github.com/elboundati-youssef/simulation-lois-probabilite</span> 
+            <span class="demo-link">#</span>
+          </div>
+        </a>
+      </li>
+
+
+    </ul>
+
+  </section>
+
+  <div class="modal-container" data-modal-container-project>
+    <div class="overlay" data-overlay-project></div>
+
+    <section class="testimonials-modal">
+      <button class="modal-close-btn" data-modal-close-btn-project>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="modal-img-wrapper">
+        <figure class="modal-avatar-box">
+          <img src="" alt="" width="80" data-modal-project-img>
+        </figure>
+        <img src="./assets/images/icon-dev.svg" alt="dev icon" width="40">
+      </div>
+
+      <div class="modal-content">
+        <h4 class="h3 modal-title" data-modal-project-title></h4>
+        <p class="modal-subtitle" data-modal-project-tech style="color: var(--orange-yellow-crayola); font-size: 14px; margin-bottom: 10px;"></p>
+        
+        <div data-modal-project-text class="modal-text"></div>
+        
+        <div class="modal-footer-links" style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+           
+           <a href="#" target="_blank" class="form-btn" data-modal-project-github style="padding: 12px 20px; display: flex; align-items: center; gap: 8px; border-radius: 8px; background: var(--border-gradient-onyx); color: var(--orange-yellow-crayola); border: 1px solid var(--jet); font-size: 14px;">
+             <ion-icon name="logo-github"></ion-icon> 
+             <span>Voir Code</span>
+           </a>
+
+           <a href="#" target="_blank" class="form-btn" data-modal-project-demo style="padding: 12px 20px; display: flex; align-items: center; gap: 8px; border-radius: 8px; background: var(--border-gradient-onyx); color: var(--orange-yellow-crayola); border: 1px solid var(--jet); font-size: 14px;">
+             <ion-icon name="eye-outline"></ion-icon> 
+             <span>Voir Démo</span>
+           </a>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+</article>
+      <!--
+        - #BLOG
+      -->
+
+<article class="blog" data-page="blog">
+
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+
+    <ul class="blog-posts-list">
+
+      <li class="blog-post-item">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7423410457132302337/" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/fin de jobintech.jpeg" alt="Présentation Kenz" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">JobInTech / Angular</p>
+              <span class="dot"></span>
+              <time datetime="2026-01-25">Jan 2026</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Fin de parcours : Présentation de Kenz</h3>
+
+            <p class="blog-text">
+              Après 5 semaines de développement intense, présentation de notre plateforme centralisée pour les bourses d'études. Stack MEAN & Docker.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7378102956740558848/" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/vs code days.jpg" alt="VS Code Dev Days" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Événement Tech / IA</p>
+              <span class="dot"></span>
+              <time datetime="2025-11-20">Nov 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">VS Code Dev Days 2025 au Technopark</h3>
+
+            <p class="blog-text">
+              Une journée fantastique à explorer l'avenir du développement, Azure AI Foundry et la puissance de GitHub Copilot.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7349152141975896067/" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/pfe maim.jpg" alt="PFE Mathématiques IA" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Data Science / Python</p>
+              <span class="dot"></span>
+              <time datetime="2025-06-15">Juin 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">PFE : Probabilités appliquées à l'IA</h3>
+
+            <p class="blog-text">
+              Mon projet de fin d'études sur l'étude et la simulation interactive (Python) des lois de probabilité usuelles.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <div style="cursor: default;"> <figure class="blog-banner-box">
+            <img src="./assets/images/medays2025.jpeg" alt="Forum MEDays 2025" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Forum International</p>
+              <span class="dot"></span>
+              <time datetime="2025-11-15">Nov 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Participation au Forum MEDays 2025</h3>
+
+            <p class="blog-text">
+              Présence au forum "Le Sud dans l'ordre mondial" à Tanger. Une opportunité d'assister à des débats de haut niveau sur les enjeux économiques, technologiques et la souveraineté numérique.
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+      <!--
+        - #CONTACT
+      -->
+<article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-info-list" style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+
+          <h3 class="h3" style="margin-bottom: 25px;">Mes Réseaux</h3>
+
+          <ul class="contacts-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; width: 100%; max-width: 800px; justify-content: center;">
+
+            <li class="contact-item" style="background: var(--border-gradient-onyx); border-radius: 14px; border: 1px solid var(--jet); overflow: hidden; transition: var(--transition-1);">
+              <a href="https://linkedin.com/in/youssef-el" target="_blank" style="display: flex; flex-direction: column; align-items: center; padding: 30px; width: 100%; height: 100%; text-decoration: none;">
+                
+                <div class="icon-box" style="margin-bottom: 15px; font-size: 30px; color: var(--orange-yellow-crayola);">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+                
+                <div class="contact-info" style="text-align: center;">
+                  <p class="contact-title" style="color: var(--light-gray-70); font-size: 14px; margin-bottom: 5px;">LinkedIn</p>
+                  <span style="color: var(--white-2); font-weight: 600; font-size: 16px;">Mon Profil</span>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="contact-item" style="background: var(--border-gradient-onyx); border-radius: 14px; border: 1px solid var(--jet); overflow: hidden; transition: var(--transition-1);">
+              <a href="https://github.com/elboundati-youssef" target="_blank" style="display: flex; flex-direction: column; align-items: center; padding: 30px; width: 100%; height: 100%; text-decoration: none;">
+                
+                <div class="icon-box" style="margin-bottom: 15px; font-size: 30px; color: var(--orange-yellow-crayola);">
+                  <ion-icon name="logo-github"></ion-icon>
+                </div>
+                
+                <div class="contact-info" style="text-align: center;">
+                  <p class="contact-title" style="color: var(--light-gray-70); font-size: 14px; margin-bottom: 5px;">GitHub</p>
+                  <span style="color: var(--white-2); font-weight: 600; font-size: 16px;">Mes Projets</span>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="contact-item" style="background: var(--border-gradient-onyx); border-radius: 14px; border: 1px solid var(--jet); overflow: hidden; transition: var(--transition-1);">
+              <a href="mailto:elboundati.youssef.t@gmail.com" style="display: flex; flex-direction: column; align-items: center; padding: 30px; width: 100%; height: 100%; text-decoration: none;">
+                
+                <div class="icon-box" style="margin-bottom: 15px; font-size: 30px; color: var(--orange-yellow-crayola);">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                
+                <div class="contact-info" style="text-align: center;">
+                  <p class="contact-title" style="color: var(--light-gray-70); font-size: 14px; margin-bottom: 5px;">Email</p>
+                  <span style="color: var(--white-2); font-weight: 600; font-size: 16px;">M'écrire</span>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+          <h3 class="h3" style="margin-top: 50px; margin-bottom: 25px;">Mon CV</h3>
+
+          <div style="text-align: center;">
+            <a href="./assets/cv portfolio 2026.pdf" download="CV_Youssef_El_Boundati.pdf" class="form-btn" style="display: inline-flex; align-items: center; gap: 10px; padding: 16px 35px; background: var(--border-gradient-onyx); color: var(--orange-yellow-crayola); border: 1px solid var(--jet); border-radius: 14px; font-size: 15px; cursor: pointer; transition: var(--transition-1);">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Télécharger version PDF</span>
+            </a>
+          </div>
+
+        </section>
+
+      </article>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
