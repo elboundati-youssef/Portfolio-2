@@ -1654,7 +1654,17 @@ textarea.form-input::-webkit-resizer { display: none; }
   
 }
 
-
+/* Correction des boutons de la modale pour Mobile uniquement */
+@media (max-width: 768px) {
+  .modal-footer-links {
+    flex-direction: column; /* Met les boutons l'un en dessous de l'autre */
+  }
+  
+  .modal-footer-links a {
+    width: 100% !important; /* Force les boutons à prendre toute la largeur */
+    justify-content: center !important; /* Centre l'icône et le texte */
+  }
+}
 
 
 

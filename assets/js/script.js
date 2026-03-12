@@ -131,11 +131,16 @@ for (let i = 0; i < projectItems.length; i++) {
     const imgElement = this.querySelector("img");
     const titleElement = this.querySelector(".project-title");
     
-    // 2. Récupérer les infos cachées
-    const hiddenDesc = this.querySelector(".desc").innerText;
-    const hiddenTech = this.querySelector(".tech-stack").innerText;
-    const hiddenGithub = this.querySelector(".github-link").innerText;
-    const hiddenDemo = this.querySelector(".demo-link").innerText;
+    // 2. Récupérer les infos cachées (avec vérification de sécurité)
+    const descElement = this.querySelector(".desc");
+    const techElement = this.querySelector(".tech-stack");
+    const githubElement = this.querySelector(".github-link");
+    const demoElement = this.querySelector(".demo-link");
+
+    const hiddenDesc = descElement ? descElement.innerText : "";
+    const hiddenTech = techElement ? techElement.innerText : "";
+    const hiddenGithub = githubElement ? githubElement.innerText : "";
+    const hiddenDemo = demoElement ? demoElement.innerText : "";
 
     // 3. Injecter les données dans la modale
     modalProjectImg.src = imgElement.src;
@@ -148,14 +153,14 @@ for (let i = 0; i < projectItems.length; i++) {
     modalProjectGithub.href = hiddenGithub;
     modalProjectDemo.href = hiddenDemo;
 
-    // Gestion Bouton GitHub (cache si # ou vide)
+    // Gestion Bouton GitHub (cache si # ou vide ou n'existe pas)
     if(hiddenGithub.trim() === "#" || hiddenGithub.trim() === "") {
         modalProjectGithub.style.display = "none";
     } else {
         modalProjectGithub.style.display = "flex";
     }
 
-    // Gestion Bouton Démo (cache si # ou vide)
+    // Gestion Bouton Démo (cache si # ou vide ou n'existe pas)
     if(hiddenDemo.trim() === "#" || hiddenDemo.trim() === "") {
         modalProjectDemo.style.display = "none";
     } else {
